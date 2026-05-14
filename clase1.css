@@ -1,0 +1,65 @@
+/* Llamar un Elemento por ID */
+#titulo-principal {
+    color: rgb(93, 93, 255);
+    font-size: 30px;
+    
+}
+
+/* Llamar a un elemento por su clase */
+.subtitulo {
+    color: rgb(137, 255, 168);
+    font-size: 30px;
+}
+
+/* Llamar a un elemento por su etiqueta */
+h2 {
+    color: rgb(255, 206, 93);
+    font-size: 30px;
+}
+
+li {
+    color: rgb(62, 148, 234); /* Verde Lima */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: square; /* Cambia el tipo de viñeta a cuadrada */
+  }
+  .faltante {
+    color: red; /* Color rojo para el ingrediente faltante */
+}
+.ingrediente {
+    color: greenyellow; /* Verde Lima */
+}
+#ingrediente-importante {
+   color: teal; /* Color cian para el ingrediente importante */
+   font-weight: bold; /* Negrita para resaltar el ingrediente importante */
+   font-size: 40px; /* Tamaño de fuente más grande para el ingrediente importante */
+}
+
+p {
+    color:aqua;
+    background-color: rebeccapurple;
+    font: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: 300px;
+    height: 100;
+    x: calc(50% + 100);
+    y: calc(50% + 100);
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: solid;
+    overflow: visible;
+    border: 30px solid black;
+
+}
+/*    
+    <ul class="receta" id="receta-pan">
+        <li class="ingrediente" id="ingrediente-importante">Levadura </li>
+        <li class="ingrediente">Sal </li>
+        <li class="ingrediente">Azúcar </li>
+        <li class="ingrediente">Harirna </li>
+        <li class="ingrediente">Miel</li>
+        <li class="faltante" id="falta"> Polvo de Hornear </li>
+      </ul> 
+ */
